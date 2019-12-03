@@ -10,16 +10,16 @@ docker pull zb1840/kbqa
 
 mkdir /opt/user;
 
-用一下命令自动docker镜像环境，系统自动开启服务：
+用命令启动docker里的服务服务：
 docker run -it -v /opt/user:/opt/user -p 29999:29999 -p 3004:3004   -d zb1840/kbqa /bin/bash &
 
 running......
 三分钟后 ,服务加载数据启动完成，并自动生成自测日志  /opt/user/firstrun.log. 
 然后你可以登陆系统自带的ssh服务管理虚拟环境中的服务，
 ssh -p 29999  root@127.0.0.1
-密码是六个空格
+密码是六个空格，登陆。
 
-可以开始使用服务，测试脚本/mnt/sdb/shell2/demo2.sh 
+现在可以开始使用服务，测试脚本/mnt/sdb/shell2/demo2.sh 
 
 ############################################################
 硬件需求：8G内存 30G磁盘空间
