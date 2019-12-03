@@ -78,7 +78,7 @@ curl http://127.0.0.1:3004/api/xlsqa/test6/李四的性别是什么
 输出：  李四 性别 女,
 
 
- curl http://127.0.0.1:3004/api/xlsqa/test6/数谁的职业是老师
+ curl http://127.0.0.1:3004/api/xlsqa/test6/谁的职业是老师
  
  输出：张三, 职业 老师
  
