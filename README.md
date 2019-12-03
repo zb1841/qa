@@ -21,6 +21,8 @@
 
 安装方法：
 文档和数据在dockerhub
+docker版本Docker version 18.09.7，
+19.03.2版本可能出现错误部分依赖程序无法启动。
 安装docker后使用命令安装镜像：
 
 docker pull zb1840/kbqa
