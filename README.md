@@ -86,7 +86,8 @@ curl http://127.0.0.1:3004/api/xlsqa/test6/李四平时做什么
 
 本项目中使用北大邹磊老师团队开发GSTORE开源数据库。参考链接：
 https://github.com/pkumod/gStore
-语义模糊搜索使用泛华插件（可选配置）使用NGT向量搜索引擎：
+
+语义模糊搜索，泛华插件（可选配置）使用NGT向量搜索引擎：
 https://github.com/yahoojapan/NGT
 
 作者张博QQ：75926462，微信搜索：zb1840，电话13424269685
