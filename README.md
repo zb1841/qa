@@ -132,7 +132,7 @@ curl http://127.0.0.1:3004/api/xlsqa/test6/李四的爱好是什么
 
 
 
-本项目中使用北大邹磊老师团队开发GSTORE开源数据库。参考链接：
+本项目中使用北京大学邹磊老师团队开发GSTORE开源数据库。参考链接：
 https://github.com/pkumod/gStore
 
 语义模糊搜索插件（可选配置）使用NGT向量搜索引擎：
