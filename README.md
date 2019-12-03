@@ -25,7 +25,7 @@ docker版本Docker version 18.09.7，
 19.03.2版本可能出现错误部分依赖程序无法启动。
 安装docker后使用命令安装镜像：
 
-docker pull zb1840/kbqa
+docker pull zb1840/kbqa:v1
 需要在你的系统新建一个空的目录 /opt/user来放入日志和系统生成的各种临时文件。
 
 mkdir /opt/user;
