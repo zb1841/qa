@@ -3,7 +3,7 @@
 
 安装方法：
 文档和数据在dockerhub
-安装docker后使用一下命令获取程序：
+安装docker后使用命令安装镜像：
 
 docker pull zb1840/kbqa
 需要在你的系统新建一个空的目录 /opt/user来放入日志和系统生成的各种临时文件。
