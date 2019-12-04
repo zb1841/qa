@@ -43,21 +43,19 @@
 ------------------------------
 
 
-<b>安装和启动服务方法：
+<b>安装和启动服务方法：<b>
 
 硬件需求：8G内存 30G磁盘空间
 ubuntu linux 16.04+
 docker版本Docker version 18.09.7，
 
-文档和数据在dockerhub
-docker版本Docker version 18.09.7，
-
-安装docker后使用命令安装镜像：
+在linux系统安装docker后使用命令安装镜像：
 
 docker pull zb1840/kbqa:v1
-需要在你的系统新建一个空的目录 /opt/user来放入日志和系统生成的各种临时文件。
 
-mkdir /opt/user;
+在你的系统新建一个空的目录 /opt/user  来放入日志和系统生成的各种临时文件。
+
+mkdir /opt/user
 
 用命令启动docker里的服务服务：
 docker run -it -v /opt/user:/opt/user -p 29999:29999 -p 3004:3004   -d zb1840/kbqa /bin/bash &
@@ -73,7 +71,7 @@ ssh -p 29999  root@127.0.0.1
 
 
 
-<b>使用方法：
+<b>使用方法：<b>
 
 1.准备好数据文件，写入"测试.txt" .编码要求utf-8.
 cd /mnt/sdb/shell2/
@@ -117,7 +115,9 @@ curl http://127.0.0.1:3004/api/xlsqa/test6/李四的爱好是什么
 
 ------------------------------
 
-<b>更加智能的理解数据，从而回答更多问题？你可以调教这个系统，使它学会你的问答解题模式。
+<b>更加智能的理解数据，从而回答更多问题？<b>
+ 
+ 你可以调教这个系统，使它学会你的问答解题模式。
 
 基于问答例子的学习：
 针对测试.txt这个csv文件，的问答对场景的学习的配置文件路径是/mnt/sdb/shell2/testqa22.txt
