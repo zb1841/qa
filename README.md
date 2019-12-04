@@ -58,7 +58,7 @@ docker pull zb1840/kbqa:v1
 mkdir /opt/user
 
 用命令启动docker里的服务服务：
-docker run -it -v /opt/user:/opt/user -p 29999:29999 -p 3004:3004   -d zb1840/kbqa /bin/bash &
+docker run -it -v /opt/user:/opt/user -p 29999:29999 -p 3004:3004   -d zb1840/kbqa:v1 /bin/bash &
 
 running......
 三分钟后 ,服务加载数据启动完成，并自动生成自测日志  /opt/user/firstrun.log. 
