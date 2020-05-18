@@ -68,6 +68,12 @@ ssh -p 29999  root@127.0.0.1
 
 现在可以开始使用服务，测试脚本/mnt/sdb/shell2/demo2.sh 
 
+注意：每次学习完，需要重启一下主进程
+
+demo2.sh 添加两行killall chat_kgqa9300.pl;nohup ./chat_kgqa9300.pl >/dev/null 2>/dev/null &
+
+sleep 5 稍后启动完可以用curl测试了 curl http://127.0.0.1:3004/api/xlsqa/test6/赵六几岁
+
 
 --------------------------------------------------------------
 
@@ -135,6 +141,14 @@ curl http://127.0.0.1:3004/api/xlsqa/test6/李四的爱好是什么
 
 运行demo2.pl
 
+
+注意：每次学习完，需要重启一下主进程
+
+demo2.sh 添加两行killall chat_kgqa9300.pl;nohup ./chat_kgqa9300.pl >/dev/null 2>/dev/null &
+
+sleep 5 稍后启动完可以用curl测试了 curl http://127.0.0.1:3004/api/xlsqa/test6/赵六几岁
+
+
 输入问题：
 
 ”谁是老师“
@@ -177,7 +191,7 @@ https://github.com/pkumod/gStore
 https://github.com/yahoojapan/NGT
 
 本项目使用的相关软件归各方所有。
-作者深圳狗尾草智能科技有限公司。张博QQ：75926462，微信搜索：zb1840，电话13424269685
+作者张博QQ：75926462，微信搜索：zb1840，电话13424269685
 
 ----------------------------------------
 
